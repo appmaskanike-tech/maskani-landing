@@ -10,7 +10,7 @@ function TheWhy() {
     <div className="px-4 md:px-8">
       {/* Testimonials */}
       <div className="flex flex-col lg:flex-row p-4 md:p-8 justify-between items-center gap-8">
-        <h1 className="font-medium! text-2xl! md:text-4xl! text-center lg:text-left mt-4">
+        <h1 className="font-medium! text-3xl! md:text-4xl! text-center lg:text-left mt-4">
           Everything you need to scale
         </h1>
 
@@ -128,7 +128,7 @@ function TheWhy() {
           <img
             src="/smart-dashboard.png"
             alt="smart-dashboard"
-            className="w-2/3 md:w-3/5 absolute bottom-0 left-1/2 -translate-x-1/2"
+            className="w-[60%] md:w-3/5 absolute bottom-0 left-1/2 -translate-x-1/2"
           />
         </div>
 

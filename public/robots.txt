@@ -1,7 +1,5 @@
 User-agent: *
 Allow: /
-Allow: /pricing
-Allow: /contact
 Disallow: /api/
 Disallow: /_next/
 Disallow: /node_modules/
@@ -12,12 +10,9 @@ Sitemap: https://maskani.ke/sitemap.xml
 # Allow search engines to crawl important sections
 User-agent: Googlebot
 Allow: /
-Allow: /pricing
-Allow: /contact
+
 Crawl-delay: 1
 
 User-agent: Bingbot
 Allow: /
-Allow: /pricing
-Allow: /contact
 Crawl-delay: 1

@@ -21,7 +21,9 @@ function Footer() {
             <img src="/logo.svg" alt="logo" className="h-8 md:h-12" />
           </div>
           <span className="text-[0.8rem]! md:text-[0.9rem]! text-gray-500 font-light block">
-            Manage your property portfolio with smart , automated tools
+            Manage your property portfolio effortlessly with smart, automated
+            tools for listings, tenancies, rent tracking, expenses, vacancy
+            advertising, analytics, and dedicated support
           </span>
 
           <div className="hidden md:block">

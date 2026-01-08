@@ -47,7 +47,7 @@ function Pricing() {
                 </div>
 
                 <div className="flex items-baseline justify-center space-x-2 mb-2">
-                  <span className="text-4xl! md:text-6xl! font-bold!">
+                  <span className="text-3xl! md:text-6xl! font-bold!">
                     Ksh 70
                   </span>
                   <span className="text-gray-500 text-lg">/month per unit</span>
