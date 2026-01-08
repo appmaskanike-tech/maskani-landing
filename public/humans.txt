@@ -1,0 +1,40 @@
+/* HUMANS.TXT */
+/* MASKANI PROPERTY MANAGEMENT SOFTWARE */
+
+/* TEAM */
+Founder: Maskani Team
+Contact: app.maskani.ke@gmail.com
+Twitter: @maskani_ke
+Location: Nairobi, Kenya
+
+/* THANKS */
+Thanks to all our early adopters and property managers who helped shape our product.
+
+/* SITE */
+Last updated: 2026/01/08
+Standards: HTML5, CSS3, JavaScript ES6+
+Components: React, Next.js, Mantine UI, Tailwind CSS
+Software: Property Management System
+Doctype: Web App
+
+/* LANGUAGE */
+English (Kenya)
+
+/* GEO */
+Country: Kenya
+Region: East Africa
+Coordinates: -1.2921, 36.8219
+
+/* API */
+Our API documentation is available at: https://docs.maskani.ke/api
+
+/* INTERACTIONS */
+We welcome feedback and suggestions at: app.maskani.ke@gmail.com
+
+/* VISIT */
+Our office is located in Nairobi, Kenya.
+Please schedule appointments via: +254107641197
+
+/* PURPOSE */
+To simplify property management for Kenyan landlords and property managers
+through automated tools, transparent reporting, and dedicated support.

@@ -1,0 +1,63 @@
+{
+  "name": "landing",
+  "version": "0.1.0",
+  "description": "Maskani - Smart Property Management Software for Kenyan Landlords and Property Managers",
+  "keywords": [
+    "property management",
+    "real estate",
+    "landlord software",
+    "rent tracking",
+    "tenant management",
+    "Kenya",
+    "property analytics"
+  ],
+  "author": "Maskani Team",
+  "homepage": "https://maskani.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maskaniapp/landing"
+  },
+  "bugs": {
+    "url": "https://github.com/maskaniapp/landing/issues"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "export": "next export",
+    "analyze": "npm run build && npx @next/bundle-analyzer",
+    "sitemap": "next-sitemap",
+    "lighthouse": "lhci autorun --config=.lighthouserc.js"
+  },
+  "dependencies": {
+    "@mantine/carousel": "^8.3.11",
+    "@mantine/core": "^8.3.11",
+    "@mantine/hooks": "^8.3.11",
+    "@tabler/icons-react": "^3.36.1",
+    "embla-carousel": "^8.5.2",
+    "embla-carousel-autoplay": "^8.5.2",
+    "embla-carousel-react": "^8.5.2",
+    "gsap": "^3.14.2",
+    "next": "16.1.1",
+    "ogl": "^1.0.11",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-type-animation": "^3.2.0",
+    "three": "^0.182.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.1",
+    "postcss": "^8.5.6",
+    "postcss-preset-mantine": "^1.18.0",
+    "postcss-simple-vars": "^7.0.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
