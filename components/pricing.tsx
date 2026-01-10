@@ -16,7 +16,7 @@ function Pricing() {
           <h1 className="text-3xl! font-medium! mb-4">
             Simple, transparent pricing
           </h1>
-          <p className="text-lg! text-gray-500 font-light! max-w-2xl mx-auto">
+          <p className="text-center w-full text-base! md:text-xl! font-light! text-gray-500">
             Everything you need to manage your properties efficiently, all in
             one place.
           </p>

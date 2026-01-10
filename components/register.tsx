@@ -1,10 +1,19 @@
 import { Button } from "@mantine/core"
 import { IconArrowRight } from "@tabler/icons-react"
+import { useRouter } from "next/router"
 import React from "react"
 
 function Register() {
+  const router = useRouter()
+
   return (
-    <Button p={0} m={0} radius={48} size="sm">
+    <Button
+      p={0}
+      m={0}
+      radius={48}
+      size="sm"
+      onClick={() => router.push(process.env.APP_URL!)}
+    >
       <div className="flex items-center">
         <span className="tracking-wider font-light px-3 md:px-4 text-sm md:text-base">
           REGISTER

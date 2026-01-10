@@ -3,6 +3,7 @@ import {
   IconBrandFacebook,
   IconBrandInstagram,
   IconBrandTiktok,
+  IconBrandX,
   IconMail,
   IconPhone,
 } from "@tabler/icons-react"
@@ -55,20 +56,29 @@ function Footer() {
           </div>
 
           <div className="flex space-x-3 md:space-x-4">
-            <a href="#" className="hover:scale-110 transition-transform">
+            <a
+              href="https://www.instagram.com/maskani.app/"
+              className="hover:scale-110 transition-transform"
+            >
               <ActionIcon variant="light" size={40}>
                 <IconBrandInstagram size={24} stroke={1} />
               </ActionIcon>
             </a>
-            <a href="#" className="hover:scale-110 transition-transform">
+            <a
+              href="https://www.tiktok.com/@maskani.app"
+              className="hover:scale-110 transition-transform"
+            >
               <ActionIcon variant="light" size={40}>
                 <IconBrandTiktok size={24} stroke={1} />
               </ActionIcon>
             </a>
 
-            <a href="#" className="hover:scale-110 transition-transform">
+            <a
+              href="https://x.com/maskani_app?s=21"
+              className="hover:scale-110 transition-transform"
+            >
               <ActionIcon variant="light" size={40}>
-                <IconBrandFacebook size={24} stroke={1} />
+                <IconBrandX size={24} stroke={1} />
               </ActionIcon>
             </a>
           </div>
@@ -94,7 +104,7 @@ function Footer() {
             How it works
           </a>
           <a
-            href="#"
+            href="http://34.30.208.216:3001/"
             className="text-[0.8rem]! md:text-[0.9rem]! text-gray-500 font-light block hover:text-blue-400 transition-colors"
           >
             Register
