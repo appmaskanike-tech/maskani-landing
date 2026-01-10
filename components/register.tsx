@@ -12,7 +12,7 @@ function Register() {
       m={0}
       radius={48}
       size="sm"
-      onClick={() => router.push(process.env.APP_URL!)}
+      onClick={() => router.push(process.env.NEXT_PUBLIC_APP_URL!)}
     >
       <div className="flex items-center">
         <span className="tracking-wider font-light px-3 md:px-4 text-sm md:text-base">
